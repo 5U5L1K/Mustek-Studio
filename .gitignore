@@ -1,0 +1,30 @@
+# Generated applications and dependencies; only the setup is distributed here.
+*.exe
+*.dll
+!release/MustekStudio-Setup.exe
+/app/portable-build/
+/app/vendor/
+/runtime/
+/tools/
+/firmware/SBfw.usb
+/downloads/*
+!/downloads/dependencies.json
+!/downloads/backends-1.4.0.tar.bz2
+/release/*
+!/release/MustekStudio-Setup.exe
+!/release/Setup-SHA256.txt
+
+# User documents, scanner output and test artifacts.
+MustekStudio.Data/
+app-data/
+app-tests/
+scans/
+__pycache__/
+*.pyc
+*.log
+*.tmp
+.vs/
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini

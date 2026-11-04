@@ -1,0 +1,8 @@
+{
+  "file": "runtime\\ucrt64\\bin\\scanimage.exe",
+  "offset": 95488,
+  "before_sha256": "a01eec69a79e2fab41cab8d07c36c265f01dd510d13d71768f4260b54f5c5cb1",
+  "after_sha256": "73a3244637caffabed86d97144c14cb728066e2f182e1f954c17ce7edcfa5e41",
+  "old_mode": "w",
+  "new_mode": "wb"
+}

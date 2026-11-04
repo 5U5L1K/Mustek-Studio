@@ -1,0 +1,26 @@
+Mustek Studio — installation on another computer
+
+1. Run MustekStudio-Setup.exe on Windows 10 x64.
+2. Select an installation folder. By default the application is installed
+   for the current user and does not require administrator privileges.
+3. Optionally create a desktop shortcut.
+4. Keep "Complete scanner setup and open Mustek Studio" selected at the end.
+
+If WinUSB is already installed, the application opens directly.
+Otherwise the scanner connection assistant opens:
+  - connect the Mustek 1200 UB Plus to USB;
+  - click Configure WinUSB and approve the Windows administrator prompt;
+  - in Zadig select only USB ID 05D8:4002;
+  - choose WinUSB on the right and click Install Driver;
+  - wait for success, then open Mustek Studio.
+
+Zadig is included; no separate download is needed. You can reopen the
+connection assistant from Start — Mustek Studio — Scanner connection and setup.
+
+Settings and working pages are stored in MustekStudio.Data inside the
+application folder. Updates and uninstallation preserve this data directory.
+Back up this directory and exported files to keep your documents.
+Choose an installation folder writable by your user account.
+
+The installer works offline. Mustek Studio uses the .NET Framework included
+with Windows 10. Installing WinUSB requires a separate administrator confirmation.

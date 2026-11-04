@@ -1,0 +1,29 @@
+--- a/frontend/scanimage.c
++++ b/frontend/scanimage.c
+@@ -1248,7 +1248,7 @@
+         {
+ 	  /* libpng will abort if the profile and image colour spaces do not match*/
+ 	  /* The data colour space field is at bytes 16 to 20 in an ICC profile */
+-	  /* see: ICC.1:2010 ง 7.2.6 */
++	  /* see: ICC.1:2010 ยง 7.2.6 */
+ 	  int is_gray_profile = strncmp((char *) icc_buffer + 16, "GRAY", 4) == 0;
+ 	  int is_rgb_profile = strncmp((char *) icc_buffer + 16, "RGB ", 4) == 0;
+ 	  if ((is_gray_profile && color_type == PNG_COLOR_TYPE_GRAY) ||
+@@ -2700,7 +2700,7 @@
+           ofp = stdout;
+           if (output_file != NULL)
+             {
+-              ofp = fopen(output_file, "w");
++              ofp = fopen(output_file, "wb");
+               if (ofp == NULL)
+                 {
+                   fprintf(stderr, "%s: could not open output file '%s', "
+@@ -2816,7 +2816,7 @@
+ #endif
+ 	      if (ofp == NULL)
+ 	        {
+-	          ofp = fopen (part_path, "w");
++	          ofp = fopen (part_path, "wb");
+ #ifdef HAVE_LIBJPEG
+ 	          if (output_format == OUTPUT_PDF && ofp != NULL)
+ 	             init_pdf = SANE_TRUE;

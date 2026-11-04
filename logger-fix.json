@@ -1,0 +1,18 @@
+[
+  {
+    "file": "runtime\\ucrt64\\bin\\libsane-1.dll",
+    "before_sha256": "4e11b45c8c017098990e15b81e829cacff9b6736a24523a028fcd8c51fc71dde",
+    "after_sha256": "5b91fd5ca535995e526eb8f01d95445a1ca17f00ea68a0f8647a541ebf227df6",
+    "import_offset": 231986,
+    "old_import": "_localtime64",
+    "new_import": "_localtime32"
+  },
+  {
+    "file": "runtime\\ucrt64\\lib\\bin\\libsane-gt68xx-1.dll",
+    "before_sha256": "4e11b45c8c017098990e15b81e829cacff9b6736a24523a028fcd8c51fc71dde",
+    "after_sha256": "5b91fd5ca535995e526eb8f01d95445a1ca17f00ea68a0f8647a541ebf227df6",
+    "import_offset": 231986,
+    "old_import": "_localtime64",
+    "new_import": "_localtime32"
+  }
+]

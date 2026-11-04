@@ -1,0 +1,44 @@
+[
+  {
+    "package": "mingw-w64-ucrt-x86_64-libjpeg-turbo",
+    "url": "https://mirror.msys2.org/mingw/ucrt64/mingw-w64-ucrt-x86_64-libjpeg-turbo-3.2.1-1-any.pkg.tar.zst",
+    "sha256": "8eed77c1e0d6de7f8822687f7b1dfa32cda09394806ef67b23399e63de1a92a6",
+    "page": "https://packages.msys2.org/packages/mingw-w64-ucrt-x86_64-libjpeg-turbo"
+  },
+  {
+    "package": "mingw-w64-ucrt-x86_64-libpng",
+    "url": "https://mirror.msys2.org/mingw/ucrt64/mingw-w64-ucrt-x86_64-libpng-1.6.59-2-any.pkg.tar.zst",
+    "sha256": "6cc296f5029220e1a226c4bc50294212b20ab8fcabeb00b5a002667f4a882edc",
+    "page": "https://packages.msys2.org/packages/mingw-w64-ucrt-x86_64-libpng"
+  },
+  {
+    "package": "mingw-w64-ucrt-x86_64-libieee1284",
+    "url": "https://mirror.msys2.org/mingw/ucrt64/mingw-w64-ucrt-x86_64-libieee1284-0.2.11-1-any.pkg.tar.zst",
+    "sha256": "59d0eb49f3090e92f7941c74e8013ef71998fe0d751dc9a15ce7a569c4e448df",
+    "page": "https://packages.msys2.org/packages/mingw-w64-ucrt-x86_64-libieee1284"
+  },
+  {
+    "package": "mingw-w64-ucrt-x86_64-libusb",
+    "url": "https://mirror.msys2.org/mingw/ucrt64/mingw-w64-ucrt-x86_64-libusb-1.0.30-1-any.pkg.tar.zst",
+    "sha256": "20106e6ff31b4581bb111b28a68b6b79a50dc3e5fc3033944e1c4b3ff8cd812e",
+    "page": "https://packages.msys2.org/packages/mingw-w64-ucrt-x86_64-libusb"
+  },
+  {
+    "package": "mingw-w64-ucrt-x86_64-libxml2",
+    "url": "https://mirror.msys2.org/mingw/ucrt64/mingw-w64-ucrt-x86_64-libxml2-2.15.4-3-any.pkg.tar.zst",
+    "sha256": "e774c85139c004ce9b4085474d6b3450526c718d2e8c555a87e47adc11f376b1",
+    "page": "https://packages.msys2.org/packages/mingw-w64-ucrt-x86_64-libxml2"
+  },
+  {
+    "package": "mingw-w64-ucrt-x86_64-zlib",
+    "url": "https://mirror.msys2.org/mingw/ucrt64/mingw-w64-ucrt-x86_64-zlib-1.3.2-3-any.pkg.tar.zst",
+    "sha256": "130e6ef04c654fc2150a177600aa5ed0035087665a893479d2c85ba7485d5704",
+    "page": "https://packages.msys2.org/packages/mingw-w64-ucrt-x86_64-zlib"
+  },
+  {
+    "package": "mingw-w64-ucrt-x86_64-libiconv",
+    "url": "https://mirror.msys2.org/mingw/ucrt64/mingw-w64-ucrt-x86_64-libiconv-1.19-1-any.pkg.tar.zst",
+    "sha256": "9a500f38c2b91808741c62fae746b3e9110b33a1ecf5c30fa0c66dbedddf7e16",
+    "page": "https://packages.msys2.org/packages/mingw-w64-ucrt-x86_64-libiconv"
+  }
+]

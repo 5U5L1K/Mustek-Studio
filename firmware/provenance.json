@@ -1,0 +1,11 @@
+{
+  "file": "0085_005a920d.bin",
+  "offset": 5935629,
+  "compressed_size": 4791,
+  "size": 7821,
+  "crc32": "08207c18",
+  "destination": "firmware/SBfw.usb",
+  "sha256": "b6658686d63190a8dccc5c2c7a89dce4cc467ae4b4e91ba6bf3cf818d736f5af",
+  "installer_path": "%WIN%\\System32\\Drivers\\SBfw.usb",
+  "script_offset": 68323
+}

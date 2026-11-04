@@ -1,0 +1,11 @@
+Zadig 2.9 / libwdi 1.5.1
+Copyright (c) Pete Batard and contributors.
+License: GNU General Public License version 3 or later (see COPYING-GPL3.txt).
+libwdi components are licensed under LGPL version 3 or later.
+
+Official binary: https://github.com/pbatard/libwdi/releases/download/v1.5.1/zadig-2.9.exe
+Official project: https://zadig.akeo.ie/
+Corresponding source: https://github.com/pbatard/libwdi/tree/v1.5.1
+Source archive: https://github.com/pbatard/libwdi/archive/refs/tags/v1.5.1.zip
+The included Zadig binary is unmodified and signed by Akeo Consulting.
+SHA256: 4ecaa95df3da3621486a043aef8b3050b8bafe7c901402871e816229ef82039b
